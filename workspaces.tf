@@ -49,7 +49,7 @@ locals {
       store_gc_type = "c2d-standard-4"
 
       store_db_do_type = "c2-16vcpu-32gb-intel"
-      store_db_ac_type = "ecs.c6.4xlarge"
+      store_db_ac_type = "ecs.r6.large"
       store_db_gc_type = "c2d-highmem-2"
 
       store_db_data_vol_size = 320
